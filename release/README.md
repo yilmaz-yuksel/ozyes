@@ -1,6 +1,6 @@
 # Program-level placement results for sport sciences undergraduate admissions in Turkey, 2024 to 2026
 
-Version 1.0 · [date of deposit]
+Version 1.0.0 · October 2026 · https://doi.org/10.5281/zenodo.23782814
 Author: Yılmaz Yüksel, Karabük University, Hasan Doğan Faculty of Sport Sciences (ORCID 0000-0003-1816-2916)
 Licence: data CC BY 4.0; code MIT
 Data descriptor: [citation after publication]
@@ -62,4 +62,4 @@ New placement rounds (starting with the 2026 supplementary placement) will be ad
 
 ## Citation
 
-Yüksel, Y. Program-level placement results for sport sciences undergraduate admissions in Turkey, 2024 to 2026. Zenodo https://doi.org/10.5281/zenodo.[XXXXXXX] (2026).
+Yüksel, Y. Program-level placement results for sport sciences undergraduate admissions in Turkey, 2024 to 2026. Zenodo https://doi.org/10.5281/zenodo.23782814 (2026).
