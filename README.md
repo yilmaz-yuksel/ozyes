@@ -1,11 +1,13 @@
 # ÖZYES placement data: extraction, dataset and validation code
 
+[![DOI](https://zenodo.org/badge/1410005340.svg)](https://doi.org/10.5281/zenodo.23783909)
+
 Code that converts the placement tables published by the Centre for Assessment, Selection and Placement (ÖSYM) for sport sciences programs admitting students through the Special Talent Examination for Sport Sciences (ÖZYES) into a validated, machine-readable dataset.
 
 Coverage: 2024, 2025 and 2026 initial placements; 2024 and 2025 supplementary placements.
 
 - **Dataset:** Zenodo, https://doi.org/10.5281/zenodo.23782814 (CC BY 4.0)
-- **This code:** archived at Zenodo, https://doi.org/10.5281/zenodo.[YYYYYYY] (MIT)
+- **This code:** archived at Zenodo, https://doi.org/10.5281/zenodo.23783909 (all versions; v1.0.0: https://doi.org/10.5281/zenodo.23783910) (MIT)
 - **Data descriptor:** [citation after publication]
 
 ## Pipeline
