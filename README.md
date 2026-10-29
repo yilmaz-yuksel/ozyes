@@ -4,7 +4,7 @@ Code that converts the placement tables published by the Centre for Assessment, 
 
 Coverage: 2024, 2025 and 2026 initial placements; 2024 and 2025 supplementary placements.
 
-- **Dataset:** Zenodo, https://doi.org/10.5281/zenodo.[XXXXXXX] (CC BY 4.0)
+- **Dataset:** Zenodo, https://doi.org/10.5281/zenodo.23782814 (CC BY 4.0)
 - **This code:** archived at Zenodo, https://doi.org/10.5281/zenodo.[YYYYYYY] (MIT)
 - **Data descriptor:** [citation after publication]
 
