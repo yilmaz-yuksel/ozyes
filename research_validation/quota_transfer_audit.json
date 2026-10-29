@@ -1,0 +1,315 @@
+{
+  "input_sha256": "9040d02a06aecb572050f32b5ccec52e4af476895f9924e258fe1ca3928a9ab7",
+  "rule_sources": [
+    "ÖSYM 2024 ÖZYES tercih işlemleri",
+    "ÖSYM 2024 ÖZYES ek yerleştirme tercih işlemleri",
+    "ÖSYM 2025 ÖZYES tercih kılavuzu",
+    "ÖSYM 2025 ÖZYES ek yerleştirme tercih kılavuzu",
+    "ÖSYM 2026 ÖZYES kılavuzu"
+  ],
+  "totals": {
+    "general_excess_rows": 1739,
+    "covered_rows": 1739,
+    "exactly_equal_rows": 1726,
+    "general_quota_zero_rows": 168
+  },
+  "periods": [
+    {
+      "round": "ilk",
+      "donor_group": "m",
+      "summary": {
+        "programs": 351,
+        "quota": 13720,
+        "placed": 12264,
+        "positive_group_vacancy": 2163,
+        "group_excess": 707,
+        "vacancy_after_transfer": 1456,
+        "general_excess_rows": 363,
+        "general_excess_total": 707,
+        "covered_rows": 363,
+        "exactly_equal_rows": 361,
+        "general_quota_zero_rows": 0,
+        "net_vacancy": 1456
+      },
+      "non_general_excess_rows": 0,
+      "violations": [],
+      "by_group": {
+        "ge": {
+          "quota": 6584,
+          "placed": 6909,
+          "vacancy": 63,
+          "excess": 388,
+          "excess_rows": 180
+        },
+        "gk": {
+          "quota": 4546,
+          "placed": 4553,
+          "vacancy": 312,
+          "excess": 319,
+          "excess_rows": 183
+        },
+        "me": {
+          "quota": 767,
+          "placed": 359,
+          "vacancy": 408,
+          "excess": 0,
+          "excess_rows": 0
+        },
+        "mk": {
+          "quota": 528,
+          "placed": 143,
+          "vacancy": 385,
+          "excess": 0,
+          "excess_rows": 0
+        },
+        "ee": {
+          "quota": 767,
+          "placed": 232,
+          "vacancy": 535,
+          "excess": 0,
+          "excess_rows": 0
+        },
+        "ek": {
+          "quota": 528,
+          "placed": 68,
+          "vacancy": 460,
+          "excess": 0,
+          "excess_rows": 0
+        }
+      },
+      "year": 2024
+    },
+    {
+      "round": "ek",
+      "donor_group": "e",
+      "summary": {
+        "programs": 306,
+        "quota": 2465,
+        "placed": 1926,
+        "positive_group_vacancy": 1425,
+        "group_excess": 886,
+        "vacancy_after_transfer": 539,
+        "general_excess_rows": 432,
+        "general_excess_total": 886,
+        "covered_rows": 432,
+        "exactly_equal_rows": 425,
+        "general_quota_zero_rows": 132,
+        "net_vacancy": 539
+      },
+      "non_general_excess_rows": 0,
+      "violations": [],
+      "by_group": {
+        "ge": {
+          "quota": 730,
+          "placed": 1177,
+          "vacancy": 69,
+          "excess": 516,
+          "excess_rows": 225
+        },
+        "gk": {
+          "quota": 730,
+          "placed": 745,
+          "vacancy": 355,
+          "excess": 370,
+          "excess_rows": 207
+        },
+        "ee": {
+          "quota": 543,
+          "placed": 3,
+          "vacancy": 540,
+          "excess": 0,
+          "excess_rows": 0
+        },
+        "ek": {
+          "quota": 462,
+          "placed": 1,
+          "vacancy": 461,
+          "excess": 0,
+          "excess_rows": 0
+        }
+      },
+      "year": 2024
+    },
+    {
+      "round": "ilk",
+      "donor_group": "m",
+      "summary": {
+        "programs": 281,
+        "quota": 10098,
+        "placed": 9092,
+        "positive_group_vacancy": 1642,
+        "group_excess": 636,
+        "vacancy_after_transfer": 1006,
+        "general_excess_rows": 299,
+        "general_excess_total": 636,
+        "covered_rows": 299,
+        "exactly_equal_rows": 298,
+        "general_quota_zero_rows": 0,
+        "net_vacancy": 1006
+      },
+      "non_general_excess_rows": 0,
+      "violations": [],
+      "by_group": {
+        "ge": {
+          "quota": 5145,
+          "placed": 5410,
+          "vacancy": 123,
+          "excess": 388,
+          "excess_rows": 158
+        },
+        "gk": {
+          "quota": 3408,
+          "placed": 3269,
+          "vacancy": 387,
+          "excess": 248,
+          "excess_rows": 141
+        },
+        "me": {
+          "quota": 628,
+          "placed": 205,
+          "vacancy": 423,
+          "excess": 0,
+          "excess_rows": 0
+        },
+        "mk": {
+          "quota": 397,
+          "placed": 69,
+          "vacancy": 328,
+          "excess": 0,
+          "excess_rows": 0
+        },
+        "ee": {
+          "quota": 325,
+          "placed": 104,
+          "vacancy": 221,
+          "excess": 0,
+          "excess_rows": 0
+        },
+        "ek": {
+          "quota": 195,
+          "placed": 35,
+          "vacancy": 160,
+          "excess": 0,
+          "excess_rows": 0
+        }
+      },
+      "year": 2025
+    },
+    {
+      "round": "ek",
+      "donor_group": "e",
+      "summary": {
+        "programs": 258,
+        "quota": 2100,
+        "placed": 1213,
+        "positive_group_vacancy": 1166,
+        "group_excess": 279,
+        "vacancy_after_transfer": 887,
+        "general_excess_rows": 233,
+        "general_excess_total": 279,
+        "covered_rows": 233,
+        "exactly_equal_rows": 233,
+        "general_quota_zero_rows": 36,
+        "net_vacancy": 887
+      },
+      "non_general_excess_rows": 0,
+      "violations": [],
+      "by_group": {
+        "ge": {
+          "quota": 854,
+          "placed": 791,
+          "vacancy": 235,
+          "excess": 172,
+          "excess_rows": 126
+        },
+        "gk": {
+          "quota": 856,
+          "placed": 419,
+          "vacancy": 544,
+          "excess": 107,
+          "excess_rows": 107
+        },
+        "ee": {
+          "quota": 229,
+          "placed": 2,
+          "vacancy": 227,
+          "excess": 0,
+          "excess_rows": 0
+        },
+        "ek": {
+          "quota": 161,
+          "placed": 1,
+          "vacancy": 160,
+          "excess": 0,
+          "excess_rows": 0
+        }
+      },
+      "year": 2025
+    },
+    {
+      "round": "ilk",
+      "donor_group": "m",
+      "summary": {
+        "programs": 384,
+        "quota": 13119,
+        "placed": 11410,
+        "positive_group_vacancy": 2489,
+        "group_excess": 780,
+        "vacancy_after_transfer": 1709,
+        "general_excess_rows": 412,
+        "general_excess_total": 780,
+        "covered_rows": 412,
+        "exactly_equal_rows": 409,
+        "general_quota_zero_rows": 0,
+        "net_vacancy": 1709
+      },
+      "non_general_excess_rows": 0,
+      "violations": [],
+      "by_group": {
+        "ge": {
+          "quota": 6665,
+          "placed": 6754,
+          "vacancy": 360,
+          "excess": 449,
+          "excess_rows": 205
+        },
+        "gk": {
+          "quota": 4464,
+          "placed": 4240,
+          "vacancy": 555,
+          "excess": 331,
+          "excess_rows": 207
+        },
+        "me": {
+          "quota": 774,
+          "placed": 199,
+          "vacancy": 575,
+          "excess": 0,
+          "excess_rows": 0
+        },
+        "mk": {
+          "quota": 526,
+          "placed": 84,
+          "vacancy": 442,
+          "excess": 0,
+          "excess_rows": 0
+        },
+        "ee": {
+          "quota": 415,
+          "placed": 93,
+          "vacancy": 322,
+          "excess": 0,
+          "excess_rows": 0
+        },
+        "ek": {
+          "quota": 275,
+          "placed": 40,
+          "vacancy": 235,
+          "excess": 0,
+          "excess_rows": 0
+        }
+      },
+      "year": 2026
+    }
+  ]
+}

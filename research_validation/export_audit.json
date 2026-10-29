@@ -1,0 +1,130 @@
+{
+  "timestamp_utc": "2026-10-11T20:10:35.806196+00:00",
+  "packages": {
+    "pandas": "3.0.1",
+    "pyreadstat": "1.3.6",
+    "openpyxl": "3.1.5"
+  },
+  "source_sha256": {
+    "data.json": "9040d02a06aecb572050f32b5ccec52e4af476895f9924e258fe1ca3928a9ab7",
+    "dataset/build_dataset.py": "176b67c1e54e44c25e59485ebe1d389d380ac4ad5d768050bc672a5590026496"
+  },
+  "checks": {
+    "coded_table_vs_previous_audit": {
+      "shape": [
+        7170,
+        33
+      ],
+      "cells": 236610,
+      "mismatches": 0,
+      "examples": []
+    },
+    "csv": {
+      "shape": [
+        7170,
+        33
+      ],
+      "cells": 236610,
+      "mismatches": 0,
+      "examples": []
+    },
+    "sav_numeric": {
+      "shape": [
+        7170,
+        33
+      ],
+      "cells": 236610,
+      "mismatches": 0,
+      "examples": []
+    },
+    "sav_labeled": {
+      "shape": [
+        7170,
+        33
+      ],
+      "cells": 236610,
+      "mismatches": 0,
+      "examples": []
+    },
+    "sav_metadata": {
+      "column_labels_equal": true,
+      "value_labels_equal": true,
+      "measure": {
+        "yil": "scale",
+        "yerlestirme": "nominal",
+        "panel_id": "nominal",
+        "program_grup_id": "nominal",
+        "program_kodu": "nominal",
+        "universite": "nominal",
+        "uni_turu": "nominal",
+        "il": "nominal",
+        "ibbs1": "nominal",
+        "cografi_bolge": "nominal",
+        "birim": "nominal",
+        "birim_turu": "nominal",
+        "program_adi": "nominal",
+        "program_turu": "nominal",
+        "ucret_durumu": "nominal",
+        "ogretim_dili": "nominal",
+        "kontenjan_turu": "nominal",
+        "cinsiyet": "nominal",
+        "kontenjan": "scale",
+        "yerlesen": "scale",
+        "en_kucuk_puan": "scale",
+        "en_buyuk_puan": "scale",
+        "doluluk_orani": "scale",
+        "bos_kontenjan": "scale",
+        "kontenjan_doldu": "nominal",
+        "puan_araligi": "scale",
+        "ilk_en_kucuk_puan": "scale",
+        "ek_ilk_farki": "scale",
+        "onceki_yil_en_kucuk_puan": "scale",
+        "en_kucuk_puan_degisim": "scale",
+        "kod_degisti": "nominal",
+        "uc_puan": "nominal",
+        "program_sayac": "scale"
+      }
+    },
+    "xlsx_data": {
+      "shape": [
+        7170,
+        33
+      ],
+      "cells": 236610,
+      "mismatches": 0,
+      "examples": []
+    }
+  },
+  "errors": [],
+  "scope": "Round-trip of all 7170x33 data cells. XLSX formulas inspected separately; no native SPSS application test.",
+  "xlsx": {
+    "sheets": [
+      "Oku beni",
+      "Özet",
+      "Veri",
+      "Program_Panel",
+      "Üniversiteler",
+      "Değişken sözlüğü",
+      "ÖSYM karşılaştırma",
+      "Kaynak ve yöntem"
+    ],
+    "formulas_per_sheet": {
+      "Oku beni": 0,
+      "Özet": 213,
+      "Veri": 0,
+      "Program_Panel": 0,
+      "Üniversiteler": 324,
+      "Değişken sözlüğü": 0,
+      "ÖSYM karşılaştırma": 161,
+      "Kaynak ve yöntem": 1
+    },
+    "program_panel_rows": 413,
+    "university_rows": 108,
+    "native_excel_recalculation": "see excel_recalculation.json when present"
+  },
+  "output_sha256": {
+    "ozyes_veriseti.csv": "2b71ac3c8321c44b9aaefa197d060e45588d840076f99aebfff0a4aa9fc4c30d",
+    "ozyes_veriseti.sav": "65a4a968f9fa558502fc693aff67524434c154f4f3ecf3408f123f23bca05ed9",
+    "ozyes_veriseti.xlsx": "6a13849223e08553fd76ddf39b30d3b2ade64371e2afbe1a173b8df6bf9e02c1"
+  }
+}

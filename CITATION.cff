@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software or the dataset it produces, please cite it as below."
+title: "ÖZYES placement data: extraction, dataset and validation code"
+type: software
+version: "1.0.0"
+date-released: "2026-11-01"
+license: MIT
+repository-code: "https://github.com/yilmaz-yuksel/ozyes"
+# doi: 10.5281/zenodo.YYYYYYY   (add after the Zenodo release)
+authors:
+  - family-names: "Yüksel"
+    given-names: "Yılmaz"
+    orcid: "https://orcid.org/0000-0003-1816-2916"
+    affiliation: "Karabük University, Hasan Doğan Faculty of Sport Sciences"
+keywords:
+  - higher education admissions
+  - sport sciences
+  - special talent examination
+  - placement data
+  - PDF table extraction
+  - Turkey
+references:
+  - type: dataset
+    title: "Program-level placement results for sport sciences undergraduate admissions in Turkey, 2024 to 2026"
+    authors:
+      - family-names: "Yüksel"
+        given-names: "Yılmaz"
+        orcid: "https://orcid.org/0000-0003-1816-2916"
+    license: CC-BY-4.0
+    # doi: 10.5281/zenodo.XXXXXXX   (add after the Zenodo deposit)

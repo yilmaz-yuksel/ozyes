@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "2026-10-11T20:15:48.404506+00:00",
+  "tests_run": 10,
+  "failures": 0,
+  "errors": 0,
+  "parser_sha256": "e9f39689bdc79249e3a9bf269e50946795be0416501c757d60861a1ca66799e2",
+  "production_data_sha256": "9040d02a06aecb572050f32b5ccec52e4af476895f9924e258fe1ca3928a9ab7",
+  "production_data_unchanged": true,
+  "scope": "Synthetic rows exercise real check/main; mocked PDF reader and code counter. No real production output writes."
+}

@@ -1,0 +1,51 @@
+{
+  "timestamp_utc": "2026-10-11T06:47:07.274Z",
+  "node": "v24.19.0",
+  "app_sha256": "d8ced6f6068200cd6aa27956b61c958f442489d32ede8f3fa622d05131598cce",
+  "scope": "Existing data-preparation/filter/aggregation/sort/history functions; no DOM, browser compatibility, latency or user study.",
+  "aggregation_cells": 68946,
+  "aggregation_numeric_fields": 62088,
+  "absent_group_checks": 6858,
+  "filter_scenarios": 520,
+  "nonempty_filter_scenarios": 402,
+  "filtered_value_checks": 179856,
+  "sort_scenarios": 6560,
+  "sort_scenarios_with_distinct_values": 4092,
+  "sort_scenarios_with_null_and_value": 1290,
+  "history_records": 1016,
+  "sentinel_cases": [
+    {
+      "name": "Turkish case folding",
+      "passed": true
+    },
+    {
+      "name": "AND search rejects missing word",
+      "passed": true
+    },
+    {
+      "name": "Negative token excludes record",
+      "passed": true
+    },
+    {
+      "name": "Blank query",
+      "passed": true
+    },
+    {
+      "name": "Unavailable supplementary normalization",
+      "passed": true
+    },
+    {
+      "name": "National athlete supplementary normalization",
+      "passed": true
+    },
+    {
+      "name": "Initial placement sort normalization",
+      "passed": true
+    },
+    {
+      "name": "Two search boxes use OR",
+      "passed": true
+    }
+  ],
+  "failures": []
+}

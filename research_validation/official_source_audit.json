@@ -1,0 +1,98 @@
+{
+  "timestamp_utc": "2026-10-11T20:15:17.845312+00:00",
+  "files": [
+    {
+      "local_file": "src/2024_ilk.pdf",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2024/OZYES/YERLESTIRME/minmax_ozyd11102024.pdf",
+      "local_sha256": "ce22323474757426de2fbeab56decadbc50c034be571a43329f7a5feac2bc66b",
+      "http_status": 200,
+      "final_url": "https://dokuman.osym.gov.tr/pdfdokuman/2024/OZYES/YERLESTIRME/minmax_ozyd11102024.pdf",
+      "remote_sha256": "ce22323474757426de2fbeab56decadbc50c034be571a43329f7a5feac2bc66b",
+      "identical": true
+    },
+    {
+      "local_file": "src_sayisal/2024_ilk.pdf",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2024/OZYES/YERLESTIRME/sayisalbilgiler_ozyd11102024.pdf",
+      "local_sha256": "fb8208f979f391348be69b58e96d395a31fd5a73ddd9410066c776d6a20dc607",
+      "http_status": 200,
+      "final_url": "https://dokuman.osym.gov.tr/pdfdokuman/2024/OZYES/YERLESTIRME/sayisalbilgiler_ozyd11102024.pdf",
+      "remote_sha256": "fb8208f979f391348be69b58e96d395a31fd5a73ddd9410066c776d6a20dc607",
+      "identical": true
+    },
+    {
+      "local_file": "src/2024_ek.pdf",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2024/OZYES/YERLESTIRME/EK/minmaxoz_ed14112024.pdf",
+      "local_sha256": "ad6a9c666613cff68295b6715b30cf363f3eb4cf50f388f0f333e2ba1831b47e",
+      "http_status": 200,
+      "final_url": "https://dokuman.osym.gov.tr/pdfdokuman/2024/OZYES/YERLESTIRME/EK/minmaxoz_ed14112024.pdf",
+      "remote_sha256": "ad6a9c666613cff68295b6715b30cf363f3eb4cf50f388f0f333e2ba1831b47e",
+      "identical": true
+    },
+    {
+      "local_file": "src_sayisal/2024_ek.pdf",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2024/OZYES/YERLESTIRME/EK/sayisalbilgileroz_ed14112024.pdf",
+      "local_sha256": "3967859b50d09dec54fae65c0cc4694dfcd8f533018af5a862cb996b776d540b",
+      "http_status": 200,
+      "final_url": "https://dokuman.osym.gov.tr/pdfdokuman/2024/OZYES/YERLESTIRME/EK/sayisalbilgileroz_ed14112024.pdf",
+      "remote_sha256": "3967859b50d09dec54fae65c0cc4694dfcd8f533018af5a862cb996b776d540b",
+      "identical": true
+    },
+    {
+      "local_file": "src/2025_ilk.pdf",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2025/OZYES/YERLESTIRME/minmax-ozyyd19092025.pdf",
+      "local_sha256": "d2102f90ed71c5e7ddeda542024540d42db0f6f57dc4e4ef12c257a56bd38300",
+      "http_status": 200,
+      "final_url": "https://dokuman.osym.gov.tr/pdfdokuman/2025/OZYES/YERLESTIRME/minmax-ozyyd19092025.pdf",
+      "remote_sha256": "d2102f90ed71c5e7ddeda542024540d42db0f6f57dc4e4ef12c257a56bd38300",
+      "identical": true
+    },
+    {
+      "local_file": "src_sayisal/2025_ilk.pdf",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2025/OZYES/YERLESTIRME/sayisalbilgiler_ozyyd19092025.pdf",
+      "local_sha256": "67276fb36099e107723a87bdee9796e66c2cd7bc67b966c851489e1b92a9742f",
+      "http_status": 200,
+      "final_url": "https://dokuman.osym.gov.tr/pdfdokuman/2025/OZYES/YERLESTIRME/sayisalbilgiler_ozyyd19092025.pdf",
+      "remote_sha256": "67276fb36099e107723a87bdee9796e66c2cd7bc67b966c851489e1b92a9742f",
+      "identical": true
+    },
+    {
+      "local_file": "src/2025_ek.pdf",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2025/OZYES/YERLESTIRME/EK/minmax_oyed27102025.pdf",
+      "local_sha256": "da31781b544e7844f2c7160031f95131a86db88aa25acfef4ed6c000988d81a0",
+      "http_status": 200,
+      "final_url": "https://dokuman.osym.gov.tr/pdfdokuman/2025/OZYES/YERLESTIRME/EK/minmax_oyed27102025.pdf",
+      "remote_sha256": "da31781b544e7844f2c7160031f95131a86db88aa25acfef4ed6c000988d81a0",
+      "identical": true
+    },
+    {
+      "local_file": "src_sayisal/2025_ek.pdf",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2025/OZYES/YERLESTIRME/EK/sayisalbilgiler_oyed27102025.pdf",
+      "local_sha256": "a50846e5aab50269c45aa37d2ff55f03247417f62cee6998d9fe63284f02f988",
+      "http_status": 200,
+      "final_url": "https://dokuman.osym.gov.tr/pdfdokuman/2025/OZYES/YERLESTIRME/EK/sayisalbilgiler_oyed27102025.pdf",
+      "remote_sha256": "a50846e5aab50269c45aa37d2ff55f03247417f62cee6998d9fe63284f02f988",
+      "identical": true
+    },
+    {
+      "local_file": "src/2026_ilk.pdf",
+      "url": "https://dokuman.osym.gov.tr/web/2026/10/2026-ozyes-yerlestirme-sonuclarina-liskin-en-kucuk-ve-en-buyuk-puanlar-ed0yq5-06160838.pdf",
+      "local_sha256": "940c6a929255f4e370adf11ee078e98a4b317e557b9a90df7c556378294f4a0f",
+      "http_status": 200,
+      "final_url": "https://dokuman.osym.gov.tr/web/2026/10/2026-ozyes-yerlestirme-sonuclarina-liskin-en-kucuk-ve-en-buyuk-puanlar-ed0yq5-06160838.pdf",
+      "remote_sha256": "940c6a929255f4e370adf11ee078e98a4b317e557b9a90df7c556378294f4a0f",
+      "identical": true
+    },
+    {
+      "local_file": "src_sayisal/2026_ilk.pdf",
+      "url": "https://dokuman.osym.gov.tr/web/2026/10/2026-ozyes-yerlestirme-sonuclarina-liskin-sayisal-bilgiler-qf6bi9-07071140.pdf",
+      "local_sha256": "5787a34aebf2f1f99fc0d9b76923c416acd534707767b27f37bbd387239419e9",
+      "http_status": 200,
+      "final_url": "https://dokuman.osym.gov.tr/web/2026/10/2026-ozyes-yerlestirme-sonuclarina-liskin-sayisal-bilgiler-qf6bi9-07071140.pdf",
+      "remote_sha256": "5787a34aebf2f1f99fc0d9b76923c416acd534707767b27f37bbd387239419e9",
+      "identical": true
+    }
+  ],
+  "pending": [],
+  "2026_index": "https://osym.gov.tr/2026-ozyes-yerlestirme-sonuclarina-iliskin-sayisal-bilgiler",
+  "2026_announcement": "https://www.osym.gov.tr/2026-yks-kapsaminda-spor-bilimleri-icin-ozel-yetenek-sinavi-ozyes-yerlestirme-sonuclari-aciklandi"
+}

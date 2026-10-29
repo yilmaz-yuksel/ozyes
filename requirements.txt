@@ -1,0 +1,6 @@
+# Versions used to build and validate the released dataset
+pdfplumber==0.11.9
+pypdf==6.10.0
+pandas==3.0.1
+openpyxl==3.1.5
+pyreadstat==1.3.6

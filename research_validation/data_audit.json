@@ -1,0 +1,464 @@
+{
+  "timestamp_utc": "2026-10-10T20:38:00.160211+00:00",
+  "scope": "Local files only. Automated differential extraction; no independent human double-entry audit.",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "pdfplumber": "0.11.9",
+      "pypdf": "6.10.0",
+      "pandas": "3.0.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "files": {
+    "data.json": "9040d02a06aecb572050f32b5ccec52e4af476895f9924e258fe1ca3928a9ab7",
+    "parse.py": "dc9cc4b6d1dc189099fda1067f94063fabe6e662db32cf1af89665e0082acbea",
+    "app.js": "d8ced6f6068200cd6aa27956b61c958f442489d32ede8f3fa622d05131598cce",
+    "dataset\\build_dataset.py": "176b67c1e54e44c25e59485ebe1d389d380ac4ad5d768050bc672a5590026496",
+    "dataset\\lookups.py": "6160f97362d10ebcb05ec1fc5c442c3878126927cab37ba88a0b8e82621b5523",
+    "dataset\\osym_ozet.py": "e20121c7122c7b2b559eb8ee044ba8dedecc697ee1fc5cc5a45ab9df40bb8570",
+    "src\\2024_ek.pdf": "ad6a9c666613cff68295b6715b30cf363f3eb4cf50f388f0f333e2ba1831b47e",
+    "src\\2024_ilk.pdf": "ce22323474757426de2fbeab56decadbc50c034be571a43329f7a5feac2bc66b",
+    "src\\2025_ek.pdf": "da31781b544e7844f2c7160031f95131a86db88aa25acfef4ed6c000988d81a0",
+    "src\\2025_ilk.pdf": "d2102f90ed71c5e7ddeda542024540d42db0f6f57dc4e4ef12c257a56bd38300",
+    "src\\2026_ilk.pdf": "940c6a929255f4e370adf11ee078e98a4b317e557b9a90df7c556378294f4a0f",
+    "src_sayisal\\2024_ek.pdf": "3967859b50d09dec54fae65c0cc4694dfcd8f533018af5a862cb996b776d540b",
+    "src_sayisal\\2024_ilk.pdf": "fb8208f979f391348be69b58e96d395a31fd5a73ddd9410066c776d6a20dc607",
+    "src_sayisal\\2025_ek.pdf": "a50846e5aab50269c45aa37d2ff55f03247417f62cee6998d9fe63284f02f988",
+    "src_sayisal\\2025_ilk.pdf": "67276fb36099e107723a87bdee9796e66c2cd7bc67b966c851489e1b92a9742f",
+    "src_sayisal\\2026_ilk.pdf": "5787a34aebf2f1f99fc0d9b76923c416acd534707767b27f37bbd387239419e9"
+  },
+  "sources": [
+    {
+      "file": "src\\2024_ek.pdf",
+      "rows": 306,
+      "pages": 3,
+      "production_checks_pass": true,
+      "check_log": "2024_ek.pdf: 306 program OK",
+      "independent_rows": 306,
+      "independent_code_set_match": true,
+      "json_code_set_match": true,
+      "duplicate_codes": 0,
+      "numeric_cells": 4896,
+      "active_groups": 1088,
+      "orphan_supplementary_codes": [],
+      "missing_placed_in_active_groups": 0,
+      "placed_over_quota": 432,
+      "zero_quota_positive_placed": 132,
+      "missing_scores_with_placed": 0,
+      "null_score_fields": 1366,
+      "boundary_score_groups": 0
+    },
+    {
+      "file": "src\\2024_ilk.pdf",
+      "rows": 351,
+      "pages": 3,
+      "production_checks_pass": true,
+      "check_log": "2024_ilk.pdf: 351 program OK",
+      "independent_rows": 351,
+      "independent_code_set_match": true,
+      "json_code_set_match": true,
+      "duplicate_codes": 0,
+      "numeric_cells": 8424,
+      "active_groups": 1840,
+      "orphan_supplementary_codes": [],
+      "missing_placed_in_active_groups": 0,
+      "placed_over_quota": 363,
+      "zero_quota_positive_placed": 0,
+      "missing_scores_with_placed": 0,
+      "null_score_fields": 2060,
+      "boundary_score_groups": 4
+    },
+    {
+      "file": "src\\2025_ek.pdf",
+      "rows": 258,
+      "pages": 4,
+      "production_checks_pass": true,
+      "check_log": "2025_ek.pdf: 258 program OK",
+      "independent_rows": 258,
+      "independent_code_set_match": true,
+      "json_code_set_match": true,
+      "duplicate_codes": 0,
+      "numeric_cells": 4128,
+      "active_groups": 806,
+      "orphan_supplementary_codes": [],
+      "missing_placed_in_active_groups": 0,
+      "placed_over_quota": 233,
+      "zero_quota_positive_placed": 36,
+      "missing_scores_with_placed": 0,
+      "null_score_fields": 1290,
+      "boundary_score_groups": 0
+    },
+    {
+      "file": "src\\2025_ilk.pdf",
+      "rows": 281,
+      "pages": 3,
+      "production_checks_pass": true,
+      "check_log": "2025_ilk.pdf: 281 program OK",
+      "independent_rows": 281,
+      "independent_code_set_match": true,
+      "json_code_set_match": true,
+      "duplicate_codes": 0,
+      "numeric_cells": 6744,
+      "active_groups": 1439,
+      "orphan_supplementary_codes": [],
+      "missing_placed_in_active_groups": 0,
+      "placed_over_quota": 299,
+      "zero_quota_positive_placed": 0,
+      "missing_scores_with_placed": 0,
+      "null_score_fields": 1838,
+      "boundary_score_groups": 4
+    },
+    {
+      "file": "src\\2026_ilk.pdf",
+      "rows": 384,
+      "pages": 3,
+      "production_checks_pass": true,
+      "check_log": "2026_ilk.pdf: 384 program OK",
+      "independent_rows": 384,
+      "independent_code_set_match": true,
+      "json_code_set_match": true,
+      "duplicate_codes": 0,
+      "numeric_cells": 9216,
+      "active_groups": 1997,
+      "orphan_supplementary_codes": [],
+      "missing_placed_in_active_groups": 0,
+      "placed_over_quota": 412,
+      "zero_quota_positive_placed": 0,
+      "missing_scores_with_placed": 0,
+      "null_score_fields": 2602,
+      "boundary_score_groups": 4
+    }
+  ],
+  "numeric_differences": [],
+  "json_reproduction_exact": true,
+  "numeric_comparisons_per_path": 33408,
+  "dataset": {
+    "rows": 7170,
+    "columns": 33,
+    "panels": 413,
+    "universities": 108,
+    "programme_years": 1016,
+    "code_change_panels": 24,
+    "model_execution": "Original prefix before SPSS/CSV export; unused pyreadstat import omitted.",
+    "exports_tested": false,
+    "reason_exports_not_tested": "pyreadstat is not installed in bundled runtime; source exports were not executed.",
+    "duplicate_observation_keys": 0,
+    "duplicate_panel_year_keys": 0
+  },
+  "derived_checks": {
+    "cells": 64530,
+    "differences": []
+  },
+  "aggregate_checks": [
+    {
+      "year": 2024,
+      "round": "ek",
+      "university_type": "Devlet",
+      "pdf_reference": [
+        239,
+        1663,
+        1318,
+        345
+      ],
+      "transcribed_reference": [
+        239,
+        1663,
+        1318,
+        345
+      ],
+      "actual": [
+        239,
+        1663,
+        1318,
+        345
+      ],
+      "diff": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "group_vacancies": 1085
+    },
+    {
+      "year": 2024,
+      "round": "ek",
+      "university_type": "Vakıf",
+      "pdf_reference": [
+        67,
+        802,
+        608,
+        194
+      ],
+      "transcribed_reference": [
+        67,
+        802,
+        608,
+        194
+      ],
+      "actual": [
+        67,
+        802,
+        608,
+        194
+      ],
+      "diff": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "group_vacancies": 340
+    },
+    {
+      "year": 2024,
+      "round": "ilk",
+      "university_type": "Devlet",
+      "pdf_reference": [
+        244,
+        11065,
+        10005,
+        1060
+      ],
+      "transcribed_reference": [
+        244,
+        11065,
+        10005,
+        1060
+      ],
+      "actual": [
+        244,
+        11065,
+        10005,
+        1060
+      ],
+      "diff": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "group_vacancies": 1617
+    },
+    {
+      "year": 2024,
+      "round": "ilk",
+      "university_type": "Vakıf",
+      "pdf_reference": [
+        107,
+        2655,
+        2259,
+        396
+      ],
+      "transcribed_reference": [
+        107,
+        2655,
+        2259,
+        396
+      ],
+      "actual": [
+        107,
+        2655,
+        2259,
+        396
+      ],
+      "diff": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "group_vacancies": 546
+    },
+    {
+      "year": 2025,
+      "round": "ek",
+      "university_type": "Devlet",
+      "pdf_reference": [
+        194,
+        1340,
+        845,
+        495
+      ],
+      "transcribed_reference": [
+        194,
+        1340,
+        845,
+        495
+      ],
+      "actual": [
+        194,
+        1340,
+        845,
+        495
+      ],
+      "diff": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "group_vacancies": 726
+    },
+    {
+      "year": 2025,
+      "round": "ek",
+      "university_type": "Vakıf",
+      "pdf_reference": [
+        64,
+        760,
+        368,
+        392
+      ],
+      "transcribed_reference": [
+        64,
+        760,
+        368,
+        392
+      ],
+      "actual": [
+        64,
+        760,
+        368,
+        392
+      ],
+      "diff": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "group_vacancies": 440
+    },
+    {
+      "year": 2025,
+      "round": "ilk",
+      "university_type": "Devlet",
+      "pdf_reference": [
+        195,
+        8050,
+        7417,
+        633
+      ],
+      "transcribed_reference": [
+        195,
+        8050,
+        7417,
+        633
+      ],
+      "actual": [
+        195,
+        8050,
+        7417,
+        633
+      ],
+      "diff": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "group_vacancies": 1155
+    },
+    {
+      "year": 2025,
+      "round": "ilk",
+      "university_type": "Vakıf",
+      "pdf_reference": [
+        86,
+        2048,
+        1675,
+        373
+      ],
+      "transcribed_reference": [
+        86,
+        2048,
+        1675,
+        373
+      ],
+      "actual": [
+        86,
+        2048,
+        1675,
+        373
+      ],
+      "diff": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "group_vacancies": 487
+    },
+    {
+      "year": 2026,
+      "round": "ilk",
+      "university_type": "Devlet",
+      "pdf_reference": [
+        271,
+        10175,
+        9359,
+        816
+      ],
+      "transcribed_reference": [
+        271,
+        10175,
+        9359,
+        816
+      ],
+      "actual": [
+        271,
+        10175,
+        9359,
+        816
+      ],
+      "diff": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "group_vacancies": 1502
+    },
+    {
+      "year": 2026,
+      "round": "ilk",
+      "university_type": "Vakıf",
+      "pdf_reference": [
+        113,
+        2944,
+        2051,
+        893
+      ],
+      "transcribed_reference": [
+        113,
+        2944,
+        2051,
+        893
+      ],
+      "actual": [
+        113,
+        2944,
+        2051,
+        893
+      ],
+      "diff": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "group_vacancies": 987
+    }
+  ],
+  "panel_checks": {
+    "links": 603,
+    "fallback_links": 24,
+    "gap_links": 73,
+    "same_code_changed_descriptors": [],
+    "institutional_continuity_verified": false
+  },
+  "input_files_unchanged": true
+}
