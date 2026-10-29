@@ -1,0 +1,27 @@
+# ÖSYM source documents (downloaded with get_sources.py; not redistributed)
+src/
+src_sayisal/
+*.part
+
+# generated outputs
+data.json
+dataset/out/
+release/out/
+ozyes-analizor.html
+artifact.html
+
+# regenerable validation working files
+research_validation/dataset_records.json
+research_validation/export_run/
+research_validation/parser_real_run/
+research_validation/official_sources/
+
+# local work
+.paper_work/
+__pycache__/
+*.pyc
+.venv/
+venv/
+~$*
+.DS_Store
+Thumbs.db
