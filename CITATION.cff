@@ -3,7 +3,7 @@ message: "If you use this software or the dataset it produces, please cite it as
 title: "ÖZYES placement data: extraction, dataset and validation code"
 type: software
 version: "1.0.0"
-date-released: "2026-11-01"
+date-released: "2026-10-30"
 license: MIT
 repository-code: "https://github.com/yilmaz-yuksel/ozyes"
 # doi: 10.5281/zenodo.YYYYYYY   (add after the Zenodo release)
@@ -27,4 +27,4 @@ references:
         given-names: "Yılmaz"
         orcid: "https://orcid.org/0000-0003-1816-2916"
     license: CC-BY-4.0
-    # doi: 10.5281/zenodo.XXXXXXX   (add after the Zenodo deposit)
+    doi: 10.5281/zenodo.23782814
