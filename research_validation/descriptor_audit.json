@@ -1,0 +1,15 @@
+{
+  "universities": 108,
+  "universities_with_printed_province": 35,
+  "province_mismatches": [],
+  "nuts1_provinces_compared": 81,
+  "nuts1_mismatches": [],
+  "nuts1_extra_provinces_in_lookup": [],
+  "sport_management_programs_by_table": {
+    "2024 initial": 89,
+    "2024 supplementary": 79,
+    "2026 initial": 102
+  },
+  "panels_absent_in_2025_only": 73,
+  "of_which_sport_management": 70
+}

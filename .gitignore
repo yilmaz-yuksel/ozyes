@@ -1,6 +1,9 @@
-# ÖSYM source documents (downloaded with get_sources.py; not redistributed)
-src/
-src_sayisal/
+# ÖSYM source documents (downloaded with get_sources.py; not redistributed);
+# the folders themselves are kept with a README that explains how to fill them
+src/*
+!src/README.md
+src_sayisal/*
+!src_sayisal/README.md
 *.part
 
 # generated outputs

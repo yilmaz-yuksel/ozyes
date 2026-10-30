@@ -29,7 +29,7 @@ data.json ──build.py──▶ ozyes-analizor.html (optional Turkish browser 
 
 ## Reproduce
 
-Requires Python 3.12 or later.
+Requires Python 3.12 or later. The ÖSYM source PDFs are not included in the repository; `get_sources.py` downloads them into `src/` (placement tables) and `src_sayisal/` (numerical summaries) under the file names the pipeline expects. Each folder has a README listing the expected files.
 
 ```bash
 pip install -r requirements.txt
