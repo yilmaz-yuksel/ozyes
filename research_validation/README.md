@@ -11,7 +11,7 @@ Run from the repository root after the pipeline steps in the main README. Each s
 | `test_parser_safety.py` | Ten failure-injection tests: the parser must not overwrite its previous output when a check fails | `parser_safety.json` |
 | `audit_official_sources.py` | Downloads the ten source documents from ÖSYM and compares checksums with the local copies (needs network access) | `official_source_audit.json` |
 | `audit_link_sources.py` | Locates the old and new codes of the 24 code-change links in the source PDFs | `link_source_evidence.json`, `kod_degisikligi_kanit_raporu.md` (Turkish; English version in `docs/code_change_source_review.md`) |
-| `audit_descriptors.py` | Compares the provinces printed in the source tables with the lookup table, the province-to-NUTS-1 table with the NUTS-1 classification of Türkiye, and counts sport management programs per table (added after v1.0.0; needs `release/out/`) | `descriptor_audit.json` |
+| `audit_descriptors.py` | Compares the provinces printed in the source tables with the lookup table, the province-to-NUTS-1 table with Eurostat's NUTS 2024 classification (downloaded from github.com/eurostat/Nuts2json; checksum recorded), and counts sport management programs per table (added after v1.0.0; needs `release/out/`) | `descriptor_audit.json` |
 | `audit_app.cjs` (Node.js) | Runs the browser viewer's data preparation, filtering, sorting and program history functions against independently computed references (needs `dataset_records.json` from `audit_data.py`) | `app_audit.json` |
 
 The scripts record discrepancies rather than failing; read the records, not only the exit code. Checks on the same source records are not independent samples, so their counts should not be added up as an error rate.
