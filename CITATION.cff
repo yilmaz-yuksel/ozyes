@@ -20,7 +20,7 @@ keywords:
   - PDF table extraction
   - Turkey
 references:
-  - type: dataset
+  - type: data
     title: "Program-level placement results for sport sciences undergraduate admissions in Turkey, 2024 to 2026"
     authors:
       - family-names: "Yüksel"
