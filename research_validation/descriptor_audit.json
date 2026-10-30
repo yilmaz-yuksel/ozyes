@@ -3,7 +3,8 @@
   "universities_with_printed_province": 35,
   "province_mismatches": [],
   "nuts_reference": {
-    "source": "https://raw.githubusercontent.com/eurostat/Nuts2json/master/pub/v2/2024/4326/20M/nutsrg_3.json",
+    "source": "https://raw.githubusercontent.com/eurostat/Nuts2json/8186be451525164ea24b43560cb943fda7c5520c/pub/v2/2024/4326/20M/nutsrg_3.json",
+    "commit": "8186be451525164ea24b43560cb943fda7c5520c",
     "version": "NUTS 2024",
     "sha256": "106d4f26522c8b114d34b6278a8ae10089a1060a4578caadee9b4afce20939d1",
     "turkiye_nuts3_regions": 81

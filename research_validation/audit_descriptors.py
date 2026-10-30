@@ -5,8 +5,9 @@
 2. NUTS-1: the province-to-region table is compared with Eurostat's NUTS 2024 classification.
    The NUTS-3 regions of Türkiye are the 81 provinces, and the first three characters of a
    NUTS-3 code give its NUTS-1 region. The reference file is Eurostat's own export
-   (github.com/eurostat/Nuts2json); it is downloaded once into research_validation/official_sources/
-   and its SHA-256 checksum is recorded.
+   (github.com/eurostat/Nuts2json), pinned to a fixed commit; it is downloaded once into
+   research_validation/official_sources/ and the script stops if its SHA-256 checksum differs
+   from the expected value.
 3. Sport management programs per table, and the panels that bridge a missing year.
 
 Writes research_validation/descriptor_audit.json. Run from the repository root after parse.py
@@ -23,7 +24,10 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "dataset"))
 from lookups import IL_IBBS1, UNI_IL  # noqa: E402
 
-NUTS_URL = "https://raw.githubusercontent.com/eurostat/Nuts2json/master/pub/v2/2024/4326/20M/nutsrg_3.json"
+# pinned to a fixed commit of eurostat/Nuts2json so the reference file cannot change
+NUTS_COMMIT = "8186be451525164ea24b43560cb943fda7c5520c"
+NUTS_URL = f"https://raw.githubusercontent.com/eurostat/Nuts2json/{NUTS_COMMIT}/pub/v2/2024/4326/20M/nutsrg_3.json"
+NUTS_SHA256 = "106d4f26522c8b114d34b6278a8ae10089a1060a4578caadee9b4afce20939d1"
 NUTS_FILE = ROOT / "research_validation" / "official_sources" / "nuts2024_nutsrg_3.json"
 
 
@@ -49,6 +53,8 @@ if not NUTS_FILE.exists():
     with urllib.request.urlopen(NUTS_URL, timeout=60) as r:
         NUTS_FILE.write_bytes(r.read())
 nuts_bytes = NUTS_FILE.read_bytes()
+if hashlib.sha256(nuts_bytes).hexdigest() != NUTS_SHA256:
+    sys.exit(f"{NUTS_FILE} does not match the expected SHA-256 checksum; delete it and run again")
 features = json.loads(nuts_bytes)["features"]
 tr3 = {f["properties"]["id"]: f["properties"]["na"] for f in features if f["properties"]["id"].startswith("TR")}
 ref = {norm(name): code[:3] for code, name in tr3.items()}
@@ -71,7 +77,7 @@ report = {
     "universities": len(universities),
     "universities_with_printed_province": len(printed),
     "province_mismatches": province_mismatches,
-    "nuts_reference": {"source": NUTS_URL, "version": "NUTS 2024", "sha256": hashlib.sha256(nuts_bytes).hexdigest(),
+    "nuts_reference": {"source": NUTS_URL, "commit": NUTS_COMMIT, "version": "NUTS 2024", "sha256": hashlib.sha256(nuts_bytes).hexdigest(),
                        "turkiye_nuts3_regions": len(tr3)},
     "nuts1_provinces_compared": len(IL_IBBS1),
     "nuts1_mismatches": nuts_mismatches,
