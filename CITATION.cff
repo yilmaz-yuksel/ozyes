@@ -6,7 +6,6 @@ version: "1.0.2"
 date-released: "2026-10-30"
 license: MIT
 repository-code: "https://github.com/yilmaz-yuksel/ozyes"
-doi: 10.5281/zenodo.23783909
 authors:
   - family-names: "Yüksel"
     given-names: "Yılmaz"
