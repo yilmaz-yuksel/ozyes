@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software or the dataset it produces, please cite it as below."
 title: "ÖZYES placement data: extraction, dataset and validation code"
 type: software
-version: "1.0.1"
+version: "1.0.2"
 date-released: "2026-10-30"
 license: MIT
 repository-code: "https://github.com/yilmaz-yuksel/ozyes"
