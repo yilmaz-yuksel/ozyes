@@ -8,7 +8,7 @@ Coverage: 2024, 2025 and 2026 initial placements; 2024 and 2025 supplementary pl
 
 - **Dataset:** Zenodo, https://doi.org/10.5281/zenodo.23782814 (CC BY 4.0)
 - **This code:** archived at Zenodo, https://doi.org/10.5281/zenodo.23783909 (all versions; v1.0.0: https://doi.org/10.5281/zenodo.23783910) (MIT)
-- **Data descriptor:** [citation after publication]
+
 
 ## Pipeline
 
